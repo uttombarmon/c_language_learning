@@ -32,14 +32,14 @@ int main()
   }
 
   // find the number
-  int l = 0, h = s - 1;
+  int l = 0, h = s - 1, m;
 
   while (l <= h)
   {
-    int m = (h - l) / 2;
+    m = l + (h - l) / 2;
     if (arr[m] == number)
     {
-      printf("%d is found on %d \n", number, m);
+      printf("%d is found on index %d \n", number, m);
       break;
     }
     else if (arr[m] < number)
