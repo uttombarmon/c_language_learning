@@ -17,7 +17,7 @@ int main()
 
   cout << "Enter new insert element at the beggining: ";
   cin >> newElement;
-  if (n < 10)
+  if (n < 10 - 1)
   {
     /* code */
     for (int i = n; i > 0; i--)
